@@ -17,7 +17,7 @@
 
 #pragma once
 
-#ifdef OMNIBUSF4PRO_LEDSTRIPM5
+#if defined(OMNIBUSF4PRO_LEDSTRIPM5) || defined(OMNIBUSF4PRO_ONEMOTOR)
 #define OMNIBUSF4PRO
 #endif
 #ifdef OMNIBUSF4PRO
